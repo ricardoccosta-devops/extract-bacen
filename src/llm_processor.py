@@ -2,6 +2,7 @@
 LLM integration for processing scraped content
 """
 
+import json
 from openai import OpenAI
 from typing import Optional, Dict, List
 import logging
@@ -115,7 +116,6 @@ If a field is not found, use "N/A" as the value."""
         result = self.extract_information(text, prompt)
         
         # Parse the result (basic parsing, could be enhanced)
-        import json
         try:
             return json.loads(result)
         except json.JSONDecodeError:

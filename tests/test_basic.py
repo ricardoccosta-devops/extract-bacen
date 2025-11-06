@@ -85,6 +85,7 @@ def test_llm_processor_validation():
     print("\nTesting LLMProcessor validation...")
     
     from src.llm_processor import LLMProcessor
+    from unittest.mock import patch
     import os
     
     # Save original API key if it exists
@@ -92,16 +93,13 @@ def test_llm_processor_validation():
     
     try:
         # Test without API key - should raise ValueError
-        os.environ['OPENAI_API_KEY'] = ''
-        from src.config import Config
-        Config.OPENAI_API_KEY = ''
-        
-        try:
-            processor = LLMProcessor(api_key='')
-            print("✗ LLMProcessor should have raised ValueError for empty API key")
-            return False
-        except ValueError:
-            print("✓ LLMProcessor correctly validates empty API key")
+        with patch.dict(os.environ, {'OPENAI_API_KEY': ''}):
+            try:
+                processor = LLMProcessor(api_key='')
+                print("✗ LLMProcessor should have raised ValueError for empty API key")
+                return False
+            except ValueError:
+                print("✓ LLMProcessor correctly validates empty API key")
         
         # Test with a test API key - just verify initialization doesn't crash
         # (we won't actually call the API)
@@ -118,7 +116,6 @@ def test_llm_processor_validation():
         # Restore original API key
         if original_key:
             os.environ['OPENAI_API_KEY'] = original_key
-            Config.OPENAI_API_KEY = original_key
 
 
 def main():
