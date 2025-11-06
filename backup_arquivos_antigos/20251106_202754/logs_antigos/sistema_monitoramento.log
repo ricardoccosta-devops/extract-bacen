@@ -1,0 +1,49 @@
+2025-10-22 18:38:24,072 - __main__ - INFO - Executando teste do sistema...
+2025-10-22 18:38:24,072 - __main__ - INFO - ============================================================
+2025-10-22 18:38:24,073 - __main__ - INFO - INICIANDO PROCESSO DE MONITORAMENTO BACEN
+2025-10-22 18:38:24,073 - __main__ - INFO - ============================================================
+2025-10-22 18:38:24,073 - __main__ - INFO - ETAPA 1: Coletando dados do BACEN...
+2025-10-22 18:38:24,074 - WDM - INFO - ====== WebDriver manager ======
+2025-10-22 18:38:30,982 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-22 18:38:31,837 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-22 18:38:32,696 - WDM - INFO - There is no [win64] chromedriver "141.0.7390.122" for browser google-chrome "141.0.7390" in cache
+2025-10-22 18:38:32,698 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-22 18:38:34,598 - WDM - INFO - WebDriver version 141.0.7390.122 selected
+2025-10-22 18:38:34,606 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/141.0.7390.122/win32/chromedriver-win32.zip
+2025-10-22 18:38:34,607 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/141.0.7390.122/win32/chromedriver-win32.zip
+2025-10-22 18:38:35,463 - WDM - INFO - Driver downloading response is 200
+2025-10-22 18:38:37,068 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-22 18:38:38,134 - WDM - INFO - Driver has been saved in cache [C:\Users\rccosta\.wdm\drivers\chromedriver\win64\141.0.7390.122]
+2025-10-22 18:38:38,642 - webcrawler - ERROR - Erro ao configurar driver: [WinError 193] %1 não é um aplicativo Win32 válido
+2025-10-22 18:38:38,643 - __main__ - WARNING - Nenhum dado foi coletado. Enviando email de notificação...
+2025-10-22 18:38:40,863 - enviador_email - ERROR - Erro ao enviar email simples: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b6cf4c05165sm61743a12.13 - gsmtp')
+2025-10-22 18:38:40,864 - __main__ - ERROR - Falha ao enviar notificação de 'sem dados'
+2025-10-22 18:42:32,026 - __main__ - INFO - Executando teste do sistema...
+2025-10-22 18:42:32,027 - __main__ - INFO - ============================================================
+2025-10-22 18:42:32,027 - __main__ - INFO - INICIANDO PROCESSO DE MONITORAMENTO BACEN
+2025-10-22 18:42:32,028 - __main__ - INFO - ============================================================
+2025-10-22 18:42:32,028 - __main__ - INFO - ETAPA 1: Coletando dados do BACEN...
+2025-10-22 18:42:32,029 - WDM - INFO - ====== WebDriver manager ======
+2025-10-22 18:42:38,272 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-22 18:42:39,096 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-22 18:42:39,884 - WDM - INFO - Driver [C:\Users\rccosta\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-10-22 18:42:39,886 - webcrawler - ERROR - Erro ao configurar driver: [WinError 193] %1 não é um aplicativo Win32 válido
+2025-10-22 18:42:39,887 - __main__ - WARNING - Nenhum dado foi coletado. Enviando email de notificação...
+2025-10-22 18:42:41,769 - enviador_email - ERROR - Erro ao enviar email simples: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b6cf4e0a3f0sm57761a12.20 - gsmtp')
+2025-10-22 18:42:41,769 - __main__ - ERROR - Falha ao enviar notificação de 'sem dados'
+2025-10-22 18:49:12,782 - __main__ - INFO - Executando teste do sistema...
+2025-10-22 18:49:12,783 - __main__ - INFO - ============================================================
+2025-10-22 18:49:12,783 - __main__ - INFO - INICIANDO PROCESSO DE MONITORAMENTO BACEN
+2025-10-22 18:49:12,783 - __main__ - INFO - ============================================================
+2025-10-22 18:49:12,784 - __main__ - INFO - ETAPA 1: Coletando dados do BACEN...
+2025-10-22 18:49:12,785 - WDM - INFO - ====== WebDriver manager ======
+2025-10-22 18:49:18,914 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-22 18:49:19,746 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-22 18:49:20,529 - WDM - INFO - Driver [C:\Users\rccosta\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-10-22 18:49:20,532 - webcrawler - ERROR - Erro ao configurar driver: [WinError 193] %1 não é um aplicativo Win32 válido
+2025-10-22 18:49:20,532 - __main__ - WARNING - Nenhum dado foi coletado. Enviando email de notificação...
+2025-10-22 18:49:20,533 - enviador_email - INFO - Configurando servidor SMTP para gmail
+2025-10-22 18:49:20,533 - enviador_email - INFO - Servidor: smtp.gmail.com:587
+2025-10-22 18:49:22,831 - enviador_email - ERROR - Erro ao configurar servidor SMTP: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-33fb01c119dsm179622a91.22 - gsmtp')
+2025-10-22 18:49:22,831 - enviador_email - ERROR - Erro ao enviar email simples: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-33fb01c119dsm179622a91.22 - gsmtp')
+2025-10-22 18:49:22,832 - __main__ - ERROR - Falha ao enviar notificação de 'sem dados'
