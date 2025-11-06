@@ -1,0 +1,14 @@
+# Web scraping dependencies
+selenium==4.25.0
+webdriver-manager==4.0.2
+
+# LLM dependencies
+openai==1.54.3
+python-dotenv==1.0.1
+
+# Data processing
+pandas==2.2.3
+
+# Utilities
+requests==2.32.3
+beautifulsoup4==4.12.3
